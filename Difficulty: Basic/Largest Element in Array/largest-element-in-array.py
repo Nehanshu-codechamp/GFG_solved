@@ -2,7 +2,8 @@ class Solution:
     def largest(self, arr):
         # code here
         
-      largest = arr[0]
+    #   largest = arr[0]
+      largest = float("-inf")
       n = len(arr)
       
       for i in range (0,n):
